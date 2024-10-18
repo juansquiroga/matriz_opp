@@ -1,0 +1,12 @@
+*.xlsx
+*.csv
+*.htlm
+*.mp4
+*.pbix
+\Input\*
+Input\*
+\Output\*
+Output\*
+*.xlsb
+\matriz_opp\*
+matriz_opp\*

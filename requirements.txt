@@ -1,0 +1,17 @@
+pandas
+pyodbc
+
+numpy
+
+seaborn
+matplotlib
+plotly
+
+pyxlsb
+openpyxl
+
+nbformat==4.2.0
+
+tqdm
+
+ipywidgets
