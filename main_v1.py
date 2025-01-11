@@ -5,15 +5,18 @@ start = time.time()
 # %%
 from datetime import datetime
 
+from datetime import datetime
+import numpy as np
+
 now = datetime.now()
-year = now.year
-month = now.month - 2
+year = np.where(now.month<3,now.year - 1,now.year)
+month = np.where(now.month==1,11,np.where(now.month==2,12, 
+            now.month - 2))
 
 id_periodo = int(str(year) + str(month).zfill(2))
 print(id_periodo)
 
 # %%
-id_periodo = 202408
 countries = ('CO','PE','BO','EC','CL','AR','GT','SV','HN','DO','PR','PA','CR')
 
 # %%
